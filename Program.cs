@@ -11,6 +11,18 @@ namespace Project
     /// </summary>
     internal class Program
     {
-        
+        static void Main(string[] args)
+        {
+            // task 3
+            int[] array = new int[10];
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = i;
+            }
+            foreach (int item in array)
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 }
